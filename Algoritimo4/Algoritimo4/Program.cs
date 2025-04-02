@@ -11,5 +11,6 @@ Console.WriteLine("Qual o valor do metro quadrado");
 valorMetro = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 area = largura * comprimento;
 valorTerreno = area * valorMetro;
+
 Console.WriteLine("O valor total é:R$ " + valorTerreno.ToString("F2", CultureInfo.InvariantCulture));
 
